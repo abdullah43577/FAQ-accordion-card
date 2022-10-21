@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    hsl(273, 75%, 66%),
+    hsl(240, 73%, 65%)
+  );
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Kumbh Sans", sans-serif;
+  color: hsl(237, 12%, 33%);
+}
+
+#main-container {
+  width: 950px;
+  height: auto;
+  display: grid;
+  /* justify-content: space-between; */
+  align-items: center;
+  background-color: #f3f3f3;
+  border-radius: 20px;
+  padding: 40px 0px;
+  grid-template-areas: "one two";
+}
+
+div.image {
+  position: relative;
+}
+
+div.image :nth-child(1) {
+  position: absolute;
+  top: 100px;
+  right: 350px;
+  z-index: 1;
+}
+
+div.image :nth-child(2) {
+  width: 100%;
+}
+
+.woman {
+  position: relative;
+  right: 40px;
+  bottom: 40px;
+}
+
+.questions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.questions:hover {
+  color: hsl(14, 88%, 65%);
+  cursor: pointer;
+}
+
+.rotate-icons {
+  transform: rotate(180deg);
+}
+
+.icon {
+  cursor: pointer;
+  width: 15px;
+}
+
+.color {
+  color: hsl(238, 29%, 16%);
+}
+
+.faq {
+  width: 500px;
+  padding-right: 100px;
+}
+
+.faq h2 {
+  color: hsl(238, 29%, 16%);
+  font-size: 30px;
+}
+
+.faqcont {
+  border-bottom: 1px solid hsl(240, 5%, 91%);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+/* .questions :last-child {
+  padding-right: 20px;
+} */
+
+/* footer */
+footer {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* media queries */
+@media (max-width: 1000px) and (orientation: portrait) {
+  #main-container {
+    width: 350px;
+    display: block;
+  }
+
+  div.image {
+    width: 200px;
+    position: absolute;
+    top: 40px;
+    left: 120px;
+  }
+
+  .faq {
+    width: 100%;
+    padding-right: 0px;
+    padding: 0px 20px;
+    margin-top: 80px;
+  }
+
+  .faq h2 {
+    text-align: center;
+  }
+
+  div.image :nth-child(1) {
+    top: 10px;
+    right: 150px;
+    width: 100px;
+  }
+}
