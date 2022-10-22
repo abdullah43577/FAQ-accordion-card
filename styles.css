@@ -40,21 +40,27 @@ body {
 
 div.image {
   position: relative;
+  height: 100%;
 }
 
-div.image :nth-child(1) {
+.ill-box {
   position: absolute;
-  top: 80px;
-  right: 390px;
   z-index: 1;
+  top: 145px;
+  right: 390px;
 }
 
-div.image :nth-child(2) {
+div.womancont {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+div.womancont :first-child {
   width: 100%;
-  transform: rotate(5deg);
-}
-
-.woman {
   position: relative;
   right: 40px;
   bottom: 40px;
@@ -128,7 +134,8 @@ footer {
     width: 200px;
     position: absolute;
     top: 40px;
-    left: 120px;
+    left: 130px;
+    height: auto;
   }
 
   .faq {
@@ -142,10 +149,16 @@ footer {
     text-align: center;
   }
 
-  div.image :nth-child(1) {
+  .ill-box {
     top: 10px;
     right: 150px;
+    z-index: 5;
     width: 100px;
+  }
+
+  div.womancont {
+    height: auto;
+    overflow: visible;
   }
 }
 
@@ -157,10 +170,7 @@ footer {
   }
 
   div.image {
-    width: 200px;
-    position: absolute;
-    top: 40px;
-    left: 120px;
+    left: 130px;
   }
 
   .faq {
@@ -172,12 +182,6 @@ footer {
 
   .faq h2 {
     text-align: center;
-  }
-
-  div.image :nth-child(1) {
-    top: 10px;
-    right: 150px;
-    width: 100px;
   }
 }
 
@@ -192,7 +196,7 @@ footer {
     width: 200px;
     position: absolute;
     top: 40px;
-    left: 120px;
+    left: 130px;
   }
 
   .faq {
@@ -204,11 +208,5 @@ footer {
 
   .faq h2 {
     text-align: center;
-  }
-
-  div.image :nth-child(1) {
-    top: 10px;
-    right: 150px;
-    width: 100px;
   }
 }
