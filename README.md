@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL here](https://your-solution-url.com)
-- Live Site URL: [live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/responsive-faq-accordion-card-built-using-html-css-and-javascript-xFqZLcD7zT)
+- Live Site URL: [live site URL here](https://faq-accordcomp.netlify.app/)
 
 ## My process
 
@@ -45,16 +45,8 @@ Desktop-first workflow
 
 ## Author
 
-- Website - [Abdullah Ayoola](https://www.your-site.com)
+- Website - [Abdullah Ayoola](https://github.com/abdullah43577)
 - Frontend Mentor - [@abdullah43577](https://www.frontendmentor.io/profile/abdullah43577)
 - Twitter - [@officialayo540](https://twitter.com/officialayo540)
 
-
 https://user-images.githubusercontent.com/100965547/197290497-4dc43c20-1d24-40b1-87ab-ea240d6d73ba.mp4
-
-
-
-
-
-
-
